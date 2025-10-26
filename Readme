@@ -12,9 +12,12 @@ Modeling the impact of dataset size and class imbalance on YOLOv10-based PPE det
 * [SH17](https://github.com/ahmadmughees/SH17dataset)
 
 
-Code Information: In this repository you can find the yolo refine block experiment results.
+Code Information: In this repository you can find the yolov10 experiment results.
 ‎
-Usage Instructions – Add yolo refine block arch. and run YOLO models.
+**Usage Instructions –**
+Run YOLOv10 models on three domain-specific datasets (CHV, SH17, and SHEL5K) prepared in YOLO format (train/val/test).
+For each dataset, use the corresponding `.yaml` configuration file and execute the standard `train → val → export` workflow to compare **mAP**, **Precision**, and **Recall** across YOLOv10 configurations (**n, s, m, b, l, x**).
+
 
 ‎Requirements – python >=3.8 and ultralytics>=8.1.0, PyTorch>=1.8.
 
