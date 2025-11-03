@@ -1,0 +1,8 @@
+train: /path/to/folder/train
+val: /path/to/folder/val
+
+# Classes
+names:
+  0: person
+  1: vest
+  2: helmet
