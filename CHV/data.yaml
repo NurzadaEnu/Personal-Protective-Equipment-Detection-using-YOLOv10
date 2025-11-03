@@ -1,0 +1,4 @@
+train: /path_to/chv/train
+val: /path_to/chv/val
+nc: 6
+names: ['person', 'vest', 'blue helmet', 'red helmet', 'white helmet', 'yellow helmet']
