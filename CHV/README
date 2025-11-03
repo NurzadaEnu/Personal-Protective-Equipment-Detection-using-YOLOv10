@@ -1,5 +1,5 @@
 ## 
 
 python main.py yolo_model_version.yaml path_to_data.yaml
-## Run example
+##Run example
 python main.py yolo11m.yaml /home/chv/data.yaml
