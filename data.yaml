@@ -1,5 +1,0 @@
-train: /path/train
-val: /path/val
-nc: 6
-names: ['person', 'vest', 'blue helmet', 'red helmet', 'white helmet', 'yellow helmet']
-
